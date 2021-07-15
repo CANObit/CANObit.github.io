@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+ <head>
+   <title>Assignment 1</title>
+ </head>
+
+ <body>
+   <!--we initiate with a space, in order to do that we use a br which is a line breaker-->
+
+   <h1>Assignment 1 - July 14th 2021</h1>
+<!--The following is supposed to be a block box-->
+
+   <!--in this case we are using dl which stands for description list.-->
+   <!--I tried other block elements like ul ol pre blockquote and address
+   but the problem with this is that all of them create an indentention.
+   To display reserved character or entities we need to use the entity name (< is &#60)
+   or the entity number (< is $lt)
+
+ in this case div is the best option -->
+
+   <dl>Hey! It looks like a paragraph, but there is a block/box here too.
+     Find that HTML element other than &ltp&gt and &lth&gt</dl>
+
+     <!--To create a link we use the element a and the atribute href-->
+     <!--we can change the style of the page, for ezample, everithing about
+   links under a <style> tag. In this case however, we need to change only one
+   of the link's color so we can use the attribute style.-->
+   <p><a href="https://www.google.com/" style="color:hotpink">This is a link to google</a></p>
+
+   <!--Insert an image-->
+
+   <!--The required alt attribute for the <img> tag
+   specifies an alternate text for an image, if the
+   image for some reason cannot be displayed. This
+   can be due to slow connection, or an error in the src
+   attribute, or if the user uses a screen reader-->
+
+   <img src="1.jpeg" width="200" height="100" alt="skate" title="Skating">
+   <address>Email me by clicking on <a href="mailto:carlcedem@gmail.com">Carlos Cedeno</a><br>
+     Visit us at:<br>
+     <a href="https://disneyworld.disney.go.com/plan/my-disney-experience/vacation-packages/?ef_id=CjwKCAjwlrqHBhByEiwAnLmYUL38Yh0kNoCd-g0fe46xAc07aOig1ld001di6FziDfxngYxFpz4I6BoC1c0QAvD_BwE:G:s&s_kwcid=AL!5060!3!456587003706!e!!g!!disney%20world&CMP=KNC-FY21_WDW_TRA_DOM-EXCFL_W365_SCP_SCP_Gold_Exact|G|5211013.RR.AM.01.01|MYBUBPO|BR|456587003706&keyword_id=kwd-12193621|dc|disney%20world|456587003706|e|5060:3|&gclid=CjwKCAjwlrqHBhByEiwAnLmYUL38Yh0kNoCd-g0fe46xAc07aOig1ld001di6FziDfxngYxFpz4I6BoC1c0QAvD_BwE">Disney World</a> <br>
+     Box 678, Disneyland<br>
+     USA<br>
+   </address>
+
+   <!--In this part we need to create a table-->
+  <h1>Bonus! Create A Table</h1>
+  <!--To create the table we use the table tag and we can customize it using the
+border attribute which selects the width of the external border of the table in
+pixels. bgcolor on the other hand sets the entire back groud color of the dable.
+Later we can customize the collor on a specific row or even specific cell-->
+ <table border="2" bgcolor="yellow">
+
+  <!--tr stands for table raw and is used to create an entire row on the dable-->
+  <!--th stands for table header and it is used to create a new cell containinf a header-->
+  <!--td is used to create a standard table table cell-->
+  <!--the tags th or td need to include the width attribute which indicates the number of
+pixels the single cell will use-->
+
+  <tr>
+    <th width="100"></th> <th width="100">width</th> <th width="100">border</th><th width="100">bgcolor</th>
+  </tr>
+
+  <tr align="center" bgcolor="LightPink">
+      <th>Value1</th> <td>="100"</<td> <td>="2"</td> <td>="yellow"</td>
+  </tr>
+
+  <tr align="center" bgcolor="LightPink">
+    <th>Value2</th> <td><i>italic</i></<td> <td>="2" or "2px"</td> <td>="lightpink"</td>
+  </tr>
+
+ </table>
+
+ </body>
+
+
+</html>
