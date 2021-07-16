@@ -1,0 +1,112 @@
+/* THe tag * affects all the elements on the website */
+*{
+  box-sizing: boreder-box;
+  padding: 0;
+  margin: 0;
+}
+nav.menu{
+  background: black;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.navlinks{
+  list-style-type: none;
+}
+
+.navlinks a {
+  color: white;
+  font-family: Arial;
+  text-decoration: none;
+}
+
+.navlinks a:hover {
+background-color: yellow;
+padding: 10px 3px;
+color: black;
+}
+
+.navlinks li{
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+/* background-color is the attribute to change te color of the background */
+/* Text color attricute name is Color: ColorName */
+body{
+  background-color: lightgray;
+}
+
+.a1{
+  display: flex;
+  justify-content: center;
+
+}
+
+.a1 iframe{
+  border: 2px solid red;
+  padding: 0px 0px;
+}
+
+div.content1{
+  background-color: hotpink;
+  font-family: Arial;
+  position: relative;
+  left: 55%;
+  bottom: 350px;
+}
+div.content2{
+  background-color: pink;
+  font-family: Courier;
+  position: relative;
+  left: 55%;
+  bottom: 350px;
+}
+div.content3{
+  background-color: lightpink;
+  font-family: Cursive;
+  position: relative;
+  left: 55%;
+  bottom: 350px;
+}
+
+.items div{
+  width: 34%;
+  height: 50px
+}
+
+.container{
+  background-color: red;
+}
+.image{
+  position: relative;
+  left: 15%;
+}
+
+.btn{
+  background-color: lightseagreen ;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  left: 61.5%;
+  bottom: 300px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 0 #f9e506;
+  transition: ease-out 0.2s;
+  outline: none;
+  border: none;
+}
+.btn:hover{
+  box-shadow: inset 200px 0 0 0 #f9e506;
+}
+
+.bottom{
+  background-color: black;
+  color: white;
+  width: 100%;
+  /* height:50px; */
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  padding: 20px 0px;
+}
