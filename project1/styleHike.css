@@ -1,0 +1,62 @@
+.title{
+  text-align: center;
+}
+
+.box{
+  /* border: 2px solid red; */
+  width:98%;
+  height:410px;
+  padding: 10px 10px;
+
+}
+
+.subbox{
+  margin: 5px;
+  border:  2px solid black;
+  width: 31%;
+  height:400px;
+  float: left;
+  position: relative;
+  left: 25px;
+  box-sizing: border-box;
+}
+
+.box div img{
+  width: 100%;
+  height: 100%;
+}
+
+.subbox>div.text{
+  border: 5px solid steelblue;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1% 10px;
+  font-size: 30px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: #f0ebdf;
+}
+
+/* Overflow Solution */
+  /* white-space: nowrap; */
+  /* display: -webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:20 */
+
+
+/*Footer -------------------------------------------------------------------- */
+.footer{
+  text-align: center;
+}
+.inenrFooter li{
+  display: inline;
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 20px;
+  padding: 15px 15px;
+}
+
+.inenrFooter a{
+  padding-right: 30px;
+}
