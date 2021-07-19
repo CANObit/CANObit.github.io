@@ -45,7 +45,7 @@ hr{
 }
 
 .box>div.img{
-  border: 1px solid red;
+  border: 5px solid #682978;
   width: 300px;
   height: 200px;
   float: left;
@@ -76,8 +76,8 @@ hr{
 }
 
 .box>div>img{
-  width: 100%;
-  height: 100%;
+  width: 100.5%;
+  height: 100.5%;
 }
 strong{
   font-weight: bolder;
