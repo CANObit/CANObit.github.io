@@ -27,6 +27,8 @@
 
 .box>div.txt{
   overflow: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .box>div>img{
