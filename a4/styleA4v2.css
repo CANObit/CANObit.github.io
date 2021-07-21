@@ -1,0 +1,104 @@
+body{
+  width: 99%;
+  height: 100vh;
+  /* border: 2px solid blue; */
+  text-align: center;
+  background-color: #242331;
+  color: white;
+  font-size: 20px;
+}
+
+.maibox{
+  /* border: 2px solid red; */
+  background-color: #BDD5EA;
+  box-sizing: content-box;
+  width: 99.9%;
+  height: 91%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty1{
+  /* border: green solid 2px; */
+  width: 20%;
+  height: 100%;
+
+}
+
+.clockbox{
+  /* border: purple solid 2px; */
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+.empty2{
+  /* border: green solid 2px; */
+  width: 20%;
+  height: 100%;
+}
+
+.mainclock{
+  border: #246EB9 20px solid;
+  width: 400px;
+  height: 400px;
+  background-color: #246EB9;
+  box-shadow: 1px 1px 100px #0FFF0B;
+}
+
+.mainclock>img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.hour{
+  /* border: 1px solid red; */
+  width: 120px;
+  height: 50px;
+  position: relative;
+  top: -230px;
+  right: -80px;
+  padding-left: 120px;
+  animation-name: hours;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.hour img{
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes hours {
+  from{transform: rotate();}
+  to{transform: rotate(30deg);}
+}
+
+.minute{
+  /* border: 1px solid red; */
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top: -280px;
+  right: -49.5px;
+  padding-left: 150px;
+  transform: rotate(-90deg);
+  animation-name: minutes;
+  animation-duration: 10s;
+
+}
+
+.minute img{
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes minutes {
+  from{transform: rotate();}
+  to{transform: rotate(270deg);}
+}
