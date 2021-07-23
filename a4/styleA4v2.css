@@ -90,6 +90,7 @@ body{
   transform: rotate(-90deg);
   animation-name: minutes;
   animation-duration: 10s;
+  animation-iteration-count: infinite;
 
 }
 
