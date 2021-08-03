@@ -117,7 +117,6 @@ if (checkWinner(avgNets2, avgKnicks2) === avgNets2){
     console.log(`Data2: There is no Winner`)
 }
 
-// Problem d----------------------------------------------------
-console.log(" ");
-console.log("THIS IS PROBLEM D")
+
+
 
