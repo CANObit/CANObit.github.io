@@ -132,7 +132,7 @@ hr {
 .msg {
     width: 100%;
     height: auto;
-    border: #BE1830 2px solid;
+    /* border: #BE1830 2px solid; */
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -143,7 +143,7 @@ hr {
 .score {
     width: 100%;
     height: auto;
-    border: #BE1830 2px solid;
+    /* border: #BE1830 2px solid; */
     box-sizing: border-box;
     display: flex;
     justify-content: center;
