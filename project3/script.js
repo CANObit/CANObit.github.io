@@ -173,7 +173,7 @@ document.querySelector('.reset').addEventListener('click',function() {
     document.querySelector('.highestScr').textContent = highScore;
 
     // Original msg display 
-     msgLog().textContent = 'Lets start Guessing...';
+     msgLog().textContent = 'Let\'s start Guessing...';
      msgLog().style.color = "black";
     msgLog().style.fontSize = "1em";
 
